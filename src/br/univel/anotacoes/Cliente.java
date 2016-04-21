@@ -5,7 +5,7 @@ import br.univel.anotacoes.Tabela;
 
 @Tabela("CAD_CLIENTE")
 public class Cliente {
-
+//criando a coluna
 	@Coluna(pk=true)
 	private int id;
 
@@ -31,7 +31,7 @@ public class Cliente {
 	}
 
 
-	
+	//seta os atributos do cliente
 
 	public int getId() {
 		return id;
